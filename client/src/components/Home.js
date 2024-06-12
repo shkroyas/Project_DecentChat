@@ -28,23 +28,6 @@ const Home = ({ socket }) => {
     }
   }
 
-  const handleForgotPassword = async () => {
-    const newPassword = prompt("Enter new password")
-    const response = await fetch("http://localhost:4000/forgot_password", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ username: userName,newPassword })
-    })
-
-    if (response.ok) {
-      alert("Password reset successfully")
-    } else {
-      alert("Username not found")
-    }
-  }
-
 
   return (
     <form className='home__container' onSubmit={handleSubmit}>
@@ -74,7 +57,7 @@ const Home = ({ socket }) => {
       Remember Me
       <button className='home__cta'>SIGN IN</button>
       <br />
-      <button type="button" onClick={handleForgotPassword}>Forgot Password</button>
+      <label htmlFor="forgot_password"><a href="/forgot_password">Forgot Password</a></label>
       <br />
     </form>
   )
