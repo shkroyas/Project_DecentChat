@@ -1,0 +1,26 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-521-060
+INFO:werkzeug: * Detected change in '/home/adi/coding/DecentChat/Api/api.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-521-060
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 08:49:23] "OPTIONS /evaluate_text HTTP/1.1" 200 -
+DEBUG:root:Received text: aditya
+DEBUG:root:Original text: aditya
+DEBUG:root:Cleaned text: aditya 
+DEBUG:root:Prediction: 1
+DEBUG:root:Offensive: True
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 08:49:24] "[35m[1mPOST /evaluate_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/adi/coding/DecentChat/Api/api.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-521-060
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 08:51:41] "OPTIONS /evaluate_text HTTP/1.1" 200 -
+DEBUG:root:Received text: test
+DEBUG:root:Original text: test
+DEBUG:root:Cleaned text: test 
+DEBUG:root:Prediction: 0
+DEBUG:root:Offensive: False
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2024 08:51:42] "[35m[1mPOST /evaluate_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/adi/coding/DecentChat/Api/api.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-521-060
+INFO:werkzeug: * Detected change in '/home/adi/coding/DecentChat/Api/evaluate.py', reloading
