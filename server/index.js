@@ -22,8 +22,8 @@ const socketIO = require('socket.io')(http, {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'shakyaroyas@gmail.com',
-        pass: 'ytli nzve jvhb ykak'
+        user: 'decentchat12@gmail.com',
+        pass: 'vqxg vahz fyrr xfhk'
     }
 });
 
