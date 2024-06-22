@@ -12,7 +12,6 @@ def evaluate(text: str):
     return prediction[0] == 1
 
 def get_offensive_words(text: str):
-    # Assuming your model has a method to get offensive words. This is a placeholder.
     offensive_words = []
     words = text.split()
     for word in words:

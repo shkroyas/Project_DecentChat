@@ -10,7 +10,7 @@ const ChatFooter = ({ socket }) => {
   const [censoredMessage, setCensoredMessage] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleTyping = () => socket.emit("typing", `${localStorage.getItem("userName")} is typing`);
+  const handleTyping = () => socket.emit("typing", `${localStorage.getItem("username")} is typing`);
 
   const handleSendMessage = async (e) => {
     e.preventDefault();

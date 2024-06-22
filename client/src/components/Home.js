@@ -31,7 +31,7 @@ const Home = ({ socket }) => {
 
   return (
     <form className='home__container' onSubmit={handleSubmit}>
-      <h2 className='home__header'>Sign in to Open Chat</h2>
+      <h2 className='home__header'>Sign in to Decent Chat</h2>
       <label htmlFor="username">Username</label>
       <input type="text"
         minLength={4}
@@ -53,8 +53,9 @@ const Home = ({ socket }) => {
       <br />
       <label htmlFor="signup">Don't have an account? <a href="/signup">Sign up</a></label>
       <br />
-      <input type="checkbox" checked={rememberMe} onChange={e => setRememberMe(e.target.checked)} />
       Remember Me
+      <input type="checkbox" checked={rememberMe} onChange={e => setRememberMe(e.target.checked)} />
+      
       <button className='home__cta'>SIGN IN</button>
       <br />
       <label htmlFor="forgot_password"><a href="/forgot_password">Forgot Password</a></label>

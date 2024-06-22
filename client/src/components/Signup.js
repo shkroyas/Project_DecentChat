@@ -26,7 +26,7 @@ const Signup = () => {
 
   return (
     <form className='home__container' onSubmit={handleSubmit}>
-      <h2 className='home__header'>Sign up for Open Chat</h2>
+      <h2 className='home__header'>Sign up for Decent Chat</h2>
       <label htmlFor="username">Username</label>
       <input type="text"
         minLength={4}
