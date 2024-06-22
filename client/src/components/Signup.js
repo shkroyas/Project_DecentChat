@@ -17,6 +17,9 @@ const Signup = () => {
     });
 
     if (response.ok) {
+      localStorage.setItem("username", userName);
+      const { token } = await response.json();
+      localStorage.setItem("token", token);
       alert("User registered successfully");
       navigate("/");
     } else {
