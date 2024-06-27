@@ -32,7 +32,10 @@ python api.py
  npm start
 
 # Project Contributors
-Ankit Kumar Karn\n
-Kshitiz Khanal\n
-Royas Shakya\n
+Ankit Kumar Karn
+
+Kshitiz Khanal
+
+Royas Shakya
+
 Aditya Shrestha
